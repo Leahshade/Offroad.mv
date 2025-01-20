@@ -1,0 +1,83 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 1em;
+  background-color: #f8f8f8;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+  background-color: #eee;
+}
+
+.filter-container button {
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-container button:hover {
+  background-color: #ddd;
+}
+
+.category-section {
+  margin: 2em 0;
+  padding: 1em;
+}
+
+.category-section h2 {
+  margin-bottom: 1em;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+  padding: 1em 0;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  min-width: 200px;
+  max-width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.card p {
+  font-size: 0.9em;
+  color: #333;
+}
